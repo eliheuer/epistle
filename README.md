@@ -1,2 +1,3 @@
 # Wilmette
-A Plantin-esque old-style serif typeface.
+
+A variable Plantin-esque typeface by Eli Heuer.

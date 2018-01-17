@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="comma" format="2">
+  <advance width="230"/>
+  <unicode hex="002C"/>
+  <outline>
+    <contour>
+      <point x="70" y="-150" type="curve"/>
+      <point x="50" y="-120" type="line"/>
+      <point x="90" y="-100"/>
+      <point x="120" y="-60"/>
+      <point x="120" y="-30" type="curve" smooth="yes"/>
+      <point x="120" y="-10"/>
+      <point x="110" y="0"/>
+      <point x="95" y="0" type="curve" smooth="yes"/>
+      <point x="55" y="0"/>
+      <point x="30" y="35"/>
+      <point x="30" y="70" type="curve" smooth="yes"/>
+      <point x="30" y="105"/>
+      <point x="55" y="135"/>
+      <point x="95" y="135" type="curve" smooth="yes"/>
+      <point x="160" y="135"/>
+      <point x="180" y="80"/>
+      <point x="180" y="50" type="curve" smooth="yes"/>
+      <point x="180" y="-20"/>
+      <point x="170" y="-100"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-160</integer>
+            <key>width</key>
+            <integer>37</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>-20</integer>
+            <key>width</key>
+            <integer>153</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>13</integer>
+            <key>width</key>
+            <integer>120</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>65</integer>
+            <key>width</key>
+            <integer>140</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>174</integer>
+            <key>width</key>
+            <integer>59</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

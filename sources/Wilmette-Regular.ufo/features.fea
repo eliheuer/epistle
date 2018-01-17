@@ -1,0 +1,114 @@
+languagesystem DFLT dflt;
+languagesystem cyrl dflt;
+languagesystem latn dflt;
+
+
+# GPOS 
+
+
+lookup kernHorizontalKerninglookup0 {
+  lookupflag 0;
+    pos \A \V -160;
+    pos \H \e -40;
+    pos \V \A -160;
+    pos \W \a -90;
+    pos \W \e -130;
+    pos \W \o -130;
+    pos \Y \e -120;
+    pos \Y \o -120;
+    pos \o \v 0;
+    pos \quoteright \s -110;
+    pos \x \W -100;
+} kernHorizontalKerninglookup0;
+
+lookup markMarkPositioninglookup0 {
+  lookupflag 0;
+  markClass [\acutecomb ] <anchor -360 600> @Anchor1;
+  markClass [\brevecomb ] <anchor -285 580> @Anchor1;
+  markClass [\circumflex ] <anchor 270 600> @Anchor1;
+  markClass [\circumflexcomb ] <anchor -200 600> @Anchor1;
+  markClass [\gravecomb ] <anchor -270 600> @Anchor1;
+  markClass [\macroncomb ] <anchor -290 580> @Anchor1;
+  markClass [\tildecomb ] <anchor -210 600> @Anchor1;
+  markClass [\uni0308 ] <anchor -262 600> @Anchor1;
+  markClass [\uni030A ] <anchor -135 600> @Anchor1;
+  markClass [\uni0327 ] <anchor -240 0> @Anchor0;
+  pos base [\A ] <anchor 380 810> mark @Anchor1;
+  pos base [\AE ] <anchor 616 810> mark @Anchor1;
+  pos base [\C ] <anchor 330 0> mark @Anchor0;
+  pos base [\E \uni0415 ] <anchor 340 810> mark @Anchor1;
+  pos base [\I ] <anchor 205 810> mark @Anchor1;
+  pos base [\O ] <anchor 390 810> mark @Anchor1;
+  pos base [\U ] <anchor 440 810> mark @Anchor1;
+  pos base [\Y ] <anchor 410 810> mark @Anchor1;
+  pos base [\a \uni0433 ] <anchor 230 580> mark @Anchor1;
+  pos base [\ae ] <anchor 403 580> mark @Anchor1;
+  pos base [\c ] <anchor 230 0> mark @Anchor0
+	<anchor 255 580> mark @Anchor1;
+  pos base [\dotlessi ] <anchor 140 580> mark @Anchor1;
+  pos base [\e ] <anchor 250 600> mark @Anchor1;
+  pos base [\o ] <anchor 280 580> mark @Anchor1;
+  pos base [\u \uni043A ] <anchor 270 580> mark @Anchor1;
+  pos base [\uni0413 ] <anchor 350 810> mark @Anchor1;
+  pos base [\y ] <anchor 290 580> mark @Anchor1;
+} markMarkPositioninglookup0;
+
+feature kern {
+
+ script DFLT;
+     language dflt ;
+      lookup kernHorizontalKerninglookup0;
+} kern;
+
+feature mark {
+
+ script DFLT;
+     language dflt ;
+      lookup markMarkPositioninglookup0;
+
+ script cyrl;
+     language dflt ;
+      lookup markMarkPositioninglookup0;
+
+ script latn;
+     language dflt ;
+      lookup markMarkPositioninglookup0;
+} mark;
+
+@GDEF_Simple = [\A \AE \Aacute \Acircumflex \Adieresis \Agrave \Aring \Atilde \B \C 
+	\Ccedilla \D \E \Eacute \Ecircumflex \Edieresis \Egrave \Eth \F \G \H \I \Iacute 
+	\Icircumflex \Idieresis \Igrave \J \K \L \M \N \Ntilde \O \Oacute \Ocircumflex 
+	\Odieresis \Ograve \Oslash \Otilde \P \Q \R \S \T \Thorn \U \Uacute \Ucircumflex 
+	\Udieresis \Ugrave \V \W \X \Y \Yacute \Z \a \aacute \acircumflex \acute \adieresis 
+	\ae \agrave \ampersand \aring \asciicircum \asciitilde \asterisk \at \atilde \b 
+	\backslash \bar \braceleft \braceright \bracketleft \bracketright \breve 
+	\brokenbar \c \ccedilla \cedilla \cent \colon \comma \copyright \currency \d 
+	\degree \dieresis \divide \dollar \dotlessi \e \eacute \ecircumflex \edieresis 
+	\egrave \eight \equal \eth \exclam \exclamdown \f \five \four \g \germandbls \grave 
+	\greater \guillemotleft \guillemotright \h \hyphen \i \iacute \icircumflex 
+	\idieresis \igrave \j \k \l \less \logicalnot \m \macron \mu \multiply \n \nine 
+	\ntilde \numbersign \o \oacute \ocircumflex \odieresis \ograve \one \onehalf 
+	\onequarter \ordfeminine \ordmasculine \oslash \otilde \p \paragraph \parenleft 
+	\parenright \percent \period \periodcentered \plus \plusminus \q \question 
+	\questiondown \quotedbl \quoteleft \quoteright \quotesingle \r \registered 
+	\ring \s \section \semicolon \seven \six \slash \space \sterling \t \thorn \three 
+	\threequarters \tilde \two \u \uacute \ucircumflex \udieresis \ugrave 
+	\underscore \uni00AD \uni00B2 \uni00B3 \uni00B9 \uni0401 \uni0403 \uni0404 
+	\uni0405 \uni0406 \uni0407 \uni0408 \uni0409 \uni040A \uni040C \uni040E \uni040F 
+	\uni0410 \uni0411 \uni0412 \uni0413 \uni0414 \uni0415 \uni0416 \uni0417 \uni0418 
+	\uni0419 \uni041A \uni041B \uni041C \uni041D \uni041E \uni041F \uni0420 \uni0421 
+	\uni0422 \uni0423 \uni0424 \uni0425 \uni0426 \uni0427 \uni0428 \uni0429 \uni042A 
+	\uni042B \uni042C \uni042D \uni042E \uni042F \uni0430 \uni0431 \uni0432 \uni0433 
+	\uni0434 \uni0435 \uni0436 \uni0437 \uni0438 \uni0439 \uni043A \uni043B \uni043C 
+	\uni043D \uni043E \uni043F \uni0440 \uni0441 \uni0442 \uni0443 \uni0444 \uni0445 
+	\uni0446 \uni0447 \uni0448 \uni0449 \uni044A \uni044B \uni044C \uni044D \uni044E 
+	\uni044F \uni0451 \uni0453 \uni0454 \uni0455 \uni0456 \uni0457 \uni0458 \uni0459 
+	\uni045A \uni045B \uni045C \v \w \x \y \yacute \ydieresis \yen \z \zero ];
+@GDEF_Mark = [\acutecomb \brevecomb \circumflex \circumflexcomb \gravecomb 
+	\macroncomb \tildecomb \uni0308 \uni030A \uni0327 ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
+
+} GDEF;
+

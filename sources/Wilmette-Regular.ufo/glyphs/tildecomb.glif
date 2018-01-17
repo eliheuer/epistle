@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tildecomb" format="2">
+  <unicode hex="0303"/>
+  <anchor x="-210" y="600" name="_Anchor1"/>
+  <anchor x="-210" y="600" name="_Anchor-1"/>
+  <outline>
+    <contour>
+      <point x="-345" y="582" type="curve"/>
+      <point x="-370" y="582" type="line"/>
+      <point x="-367.782" y="664"/>
+      <point x="-331.195" y="709"/>
+      <point x="-268" y="709" type="curve" smooth="yes"/>
+      <point x="-232.518" y="709"/>
+      <point x="-199.255" y="688.112"/>
+      <point x="-170" y="667.992" type="curve" smooth="yes"/>
+      <point x="-147.668" y="652.633"/>
+      <point x="-127.034" y="640"/>
+      <point x="-110" y="640" type="curve" smooth="yes"/>
+      <point x="-84" y="640"/>
+      <point x="-68" y="664"/>
+      <point x="-63" y="709" type="curve"/>
+      <point x="-38" y="709" type="line"/>
+      <point x="-38" y="634.24"/>
+      <point x="-75.9414" y="580"/>
+      <point x="-142" y="580" type="curve" smooth="yes"/>
+      <point x="-176.439" y="580"/>
+      <point x="-208.581" y="600.443"/>
+      <point x="-235" y="618.939" type="curve" smooth="yes"/>
+      <point x="-258.696" y="635.529"/>
+      <point x="-280.625" y="649"/>
+      <point x="-300" y="649" type="curve" smooth="yes"/>
+      <point x="-327" y="649"/>
+      <point x="-341" y="620"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>580</integer>
+            <key>width</key>
+            <integer>60</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>649</integer>
+            <key>width</key>
+            <integer>60</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-370</integer>
+            <key>width</key>
+            <integer>25</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>-63</integer>
+            <key>width</key>
+            <integer>25</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
