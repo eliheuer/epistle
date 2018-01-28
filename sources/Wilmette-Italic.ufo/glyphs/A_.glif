@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="A" format="1">
+  <advance width="715"/>
+  <unicode hex="0041"/>
+  <outline>
+    <contour>
+      <point x="726" y="0" type="line"/>
+      <point x="732" y="30" type="line"/>
+      <point x="732" y="30"/>
+      <point x="637" y="25"/>
+      <point x="645" y="99" type="curve" smooth="yes"/>
+      <point x="656" y="199"/>
+      <point x="706" y="706"/>
+      <point x="706" y="706" type="curve"/>
+      <point x="614" y="706" type="line"/>
+      <point x="177" y="184" type="line"/>
+      <point x="177" y="184"/>
+      <point x="83" y="34"/>
+      <point x="3" y="34" type="curve"/>
+      <point x="0" y="-1" type="line"/>
+      <point x="243" y="-1" type="line"/>
+      <point x="254" y="35" type="line"/>
+      <point x="254" y="35"/>
+      <point x="190" y="46"/>
+      <point x="188" y="88" type="curve" smooth="yes"/>
+      <point x="186" y="130"/>
+      <point x="639" y="659"/>
+      <point x="639" y="659" type="curve"/>
+      <point x="604" y="659" type="line"/>
+      <point x="552" y="133" type="line"/>
+      <point x="552" y="133"/>
+      <point x="559" y="49"/>
+      <point x="445" y="35" type="curve"/>
+      <point x="435" y="-4" type="line"/>
+    </contour>
+    <contour>
+      <point x="294" y="282" type="line"/>
+      <point x="584" y="282" type="line"/>
+      <point x="600" y="327" type="line"/>
+      <point x="333" y="327" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+          </array>
+          <key>lib</key>
+          <dict>
+            <key>com.typemytype.robofont.image</key>
+            <dict>
+              <key>brightness</key>
+              <real>0.0</real>
+              <key>color</key>
+              <array>
+                <real>1.0</real>
+                <real>0.0</real>
+                <real>0.0</real>
+                <real>0.6285232901573181</real>
+              </array>
+              <key>contrast</key>
+              <real>1.0</real>
+              <key>path</key>
+              <string>/Users/eli/Desktop/Screen Shot 2018-01-28 at 1.35.58 PM.png</string>
+              <key>saturation</key>
+              <real>1.0</real>
+              <key>sharpness</key>
+              <real>0.4000000059604645</real>
+              <key>transform</key>
+              <array>
+                <real>7.031568291244925</real>
+                <real>0.0</real>
+                <real>0.0</real>
+                <real>7.031568291244925</real>
+                <real>-884.926704704731</real>
+                <real>-182.31671555861965</real>
+              </array>
+            </dict>
+          </dict>
+          <key>name</key>
+          <string>A</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>715</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
