@@ -1,115 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="H" format="1">
-  <advance width="500"/>
+  <advance width="765"/>
   <unicode hex="0048"/>
   <outline>
     <contour>
-      <point x="-76" y="699" type="line"/>
-      <point x="-87" y="664" type="line"/>
-      <point x="-40" y="660"/>
-      <point x="-2" y="636"/>
-      <point x="-18" y="573" type="curve" smooth="yes"/>
-      <point x="-129" y="129" type="line" smooth="yes"/>
-      <point x="-144" y="69"/>
-      <point x="-177" y="45"/>
-      <point x="-245" y="34" type="curve"/>
-      <point x="-252" y="0" type="line"/>
-      <point x="28" y="3" type="line"/>
-      <point x="41" y="34" type="line"/>
-      <point x="-2" y="37"/>
-      <point x="-34" y="36"/>
-      <point x="-36" y="91" type="curve"/>
-      <point x="84" y="547" type="line" smooth="yes"/>
-      <point x="103" y="620"/>
-      <point x="124" y="655"/>
-      <point x="201" y="659" type="curve"/>
-      <point x="212" y="699" type="line"/>
+      <point x="189" y="699" type="line"/>
+      <point x="178" y="664" type="line"/>
+      <point x="225" y="660"/>
+      <point x="263" y="636"/>
+      <point x="247" y="573" type="curve" smooth="yes"/>
+      <point x="136" y="129" type="line" smooth="yes"/>
+      <point x="121" y="69"/>
+      <point x="88" y="45"/>
+      <point x="20" y="34" type="curve"/>
+      <point x="13" y="0" type="line"/>
+      <point x="293" y="3" type="line"/>
+      <point x="306" y="34" type="line"/>
+      <point x="263" y="37"/>
+      <point x="231" y="36"/>
+      <point x="229" y="91" type="curve"/>
+      <point x="349" y="547" type="line" smooth="yes"/>
+      <point x="368" y="620"/>
+      <point x="389" y="655"/>
+      <point x="466" y="659" type="curve"/>
+      <point x="477" y="699" type="line"/>
     </contour>
     <contour>
-      <point x="374" y="699" type="line"/>
-      <point x="363" y="664" type="line"/>
-      <point x="410" y="660"/>
-      <point x="448" y="636"/>
-      <point x="432" y="573" type="curve" smooth="yes"/>
-      <point x="321" y="129" type="line" smooth="yes"/>
-      <point x="306" y="69"/>
-      <point x="273" y="45"/>
-      <point x="205" y="34" type="curve"/>
-      <point x="198" y="0" type="line"/>
-      <point x="478" y="3" type="line"/>
-      <point x="491" y="34" type="line"/>
-      <point x="448" y="37"/>
-      <point x="416" y="36"/>
-      <point x="414" y="91" type="curve"/>
-      <point x="534" y="547" type="line" smooth="yes"/>
-      <point x="553" y="620"/>
-      <point x="574" y="655"/>
-      <point x="651" y="659" type="curve"/>
-      <point x="662" y="699" type="line"/>
+      <point x="639" y="699" type="line"/>
+      <point x="628" y="664" type="line"/>
+      <point x="675" y="660"/>
+      <point x="713" y="636"/>
+      <point x="697" y="573" type="curve" smooth="yes"/>
+      <point x="586" y="129" type="line" smooth="yes"/>
+      <point x="571" y="69"/>
+      <point x="538" y="45"/>
+      <point x="470" y="34" type="curve"/>
+      <point x="463" y="0" type="line"/>
+      <point x="743" y="3" type="line"/>
+      <point x="756" y="34" type="line"/>
+      <point x="713" y="37"/>
+      <point x="681" y="36"/>
+      <point x="679" y="91" type="curve"/>
+      <point x="799" y="547" type="line" smooth="yes"/>
+      <point x="818" y="620"/>
+      <point x="839" y="655"/>
+      <point x="916" y="659" type="curve"/>
+      <point x="927" y="699" type="line"/>
     </contour>
     <contour>
-      <point x="-28" y="336" type="line"/>
-      <point x="429" y="336" type="line"/>
-      <point x="429" y="384" type="line"/>
-      <point x="-28" y="384" type="line"/>
+      <point x="237" y="336" type="line"/>
+      <point x="694" y="336" type="line"/>
+      <point x="694" y="384" type="line"/>
+      <point x="237" y="384" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-        <key>background</key>
-        <dict>
-          <key>anchors</key>
-          <array>
-          </array>
-          <key>components</key>
-          <array>
-          </array>
-          <key>contours</key>
-          <array>
-          </array>
-          <key>lib</key>
-          <dict>
-            <key>com.typemytype.robofont.image</key>
-            <dict>
-              <key>brightness</key>
-              <real>0.0</real>
-              <key>color</key>
-              <array>
-                <real>1.0</real>
-                <real>0.0</real>
-                <real>0.0</real>
-                <real>0.6285232901573181</real>
-              </array>
-              <key>contrast</key>
-              <real>1.0</real>
-              <key>path</key>
-              <string>/Users/eli/Desktop/Screen Shot 2018-01-28 at 1.35.58 PM.png</string>
-              <key>saturation</key>
-              <real>1.0</real>
-              <key>sharpness</key>
-              <real>0.4000000059604645</real>
-              <key>transform</key>
-              <array>
-                <real>7.031568291244925</real>
-                <real>0.0</real>
-                <real>0.0</real>
-                <real>7.031568291244925</real>
-                <real>-349.92670470473115</real>
-                <real>-182.31671555861965</real>
-              </array>
-            </dict>
-          </dict>
-          <key>name</key>
-          <string>H</string>
-          <key>unicodes</key>
-          <array>
-          </array>
-          <key>width</key>
-          <integer>500</integer>
-        </dict>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

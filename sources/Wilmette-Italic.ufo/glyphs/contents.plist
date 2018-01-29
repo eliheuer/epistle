@@ -36,6 +36,8 @@
 	<string>g.glif</string>
 	<key>h</key>
 	<string>h.glif</string>
+	<key>heart</key>
+	<string>heart.glif</string>
 	<key>i</key>
 	<string>i.glif</string>
 	<key>l</key>
@@ -44,6 +46,8 @@
 	<string>n.glif</string>
 	<key>o</key>
 	<string>o.glif</string>
+	<key>p</key>
+	<string>p.glif</string>
 	<key>r</key>
 	<string>r.glif</string>
 	<key>s</key>
