@@ -1,3 +1,3 @@
 # Epistle
 
-A variable typeface.
+A variable font.
