@@ -2,4 +2,4 @@
 # This file is distinct from the CONTRIBUTORS.txt file.
 # See the latter for an explanation.
 
-Eli Heuer <eliheuer@protonmail.com>
+Eli Heuer <elih@protonmail.com>
