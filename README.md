@@ -1,3 +1,3 @@
-# Wilmette
+# Epistle
 
-A variable Plantin-esque typeface by Eli Heuer.
+A variable typeface.
